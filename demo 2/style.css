@@ -1,0 +1,98 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Sans&display=swap');
+
+/* core css */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color:lightblue;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    margin-left: 600px;
+    margin-top: -350px;
+}
+
+.button{
+    background-color:mediumturquoise;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-color:white;
+}
+
+input{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.hero_bottom{
+    font-size: 20px;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Navbar area css */
+.menu_area {
+    padding: 30px 0;
+}
+.menu_area .menu-left
+.menu_area .menu-right {
+    position: relative;
+    float: left;}
+
+.menu_area .menu-left {
+    margin-left: 60px;
+    margin-top:10px;
+    text-align: left;
+    font-size: 30px;
+}
+.menu_area .menu-right {
+    width: 70%;
+    text-align: right;
+    margin-left:300px;
+}
+
+.menu-right ul {
+    list-style-type: none;
+    font-size: 30px;
+    margin-top: -35px;
+}
+
+.menu-right ul li {
+    display: inline;
+}
+
+.menu-right ul li a{
+    padding: 30px 15px;
+}
+/* navbar area css ending */
+
+/* hero_area css */
+.hero_area{
+    margin-top: 150px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* hero_area css ending*/

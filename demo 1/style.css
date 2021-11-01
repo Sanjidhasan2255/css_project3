@@ -1,0 +1,95 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Sans&display=swap');
+
+/* core css */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    margin-left: 600px;
+    margin-top: -350px;
+}
+
+.button{
+    background-color: crimson;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Navbar area css */
+.menu_area {
+    padding: 30px 0;
+}
+.menu_area .menu-left
+.menu_area .menu-right {
+    position: relative;
+    float: left;}
+
+.menu_area .menu-left {
+    width: 30%;
+}
+.menu_area .menu-right {
+    width: 70%;
+    text-align: right;
+    margin-left:300px;
+}
+
+.menu-right ul {
+    list-style-type: none;
+}
+
+.menu-right ul li {
+    display: inline;
+}
+
+.menu-right ul li a{
+    padding: 30px 15px;
+}
+/* navbar area css ending */
+
+/* hero_area css */
+.hero_area{
+    margin-top: 150px;
+}
+
+.hero_area .hero_left,
+.hero_area .hero_right{
+    width: 50%;
+}
+
+.hero_right{
+    padding-right: 200px;
+    position: relative;
+    float: left;}
+
+}
+
+.hero_left h1{
+    font-size: 40px;
+    text-align: right;
+}
+
+/* hero_area css ending*/
